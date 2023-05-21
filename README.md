@@ -504,6 +504,19 @@ fig.tight_layout()
 
 
 ```python
+# Any python interpreter can be used as a calculator: 
+3 + 5 * 4
+```
+
+
+
+
+    23
+
+
+
+
+```python
 weight_kg = 60
 ```
 
@@ -563,12 +576,24 @@ print(weight_lb)
 
 
 ```python
+# Let's add a prefix to out patient id
+
+patient_id = 'inflam_' + patient_id
+
+print(patient_id)
+```
+
+    inflam_001
+
+
+
+```python
 # Let's combine print statements
 
 print(patient_id, 'weight in kilograms', weight_kg)
 ```
 
-    001 weight in kilograms 60.3
+    inflam_001 weight in kilograms 60.3
 
 
 
@@ -610,8 +635,6 @@ print('weight in kilograms is now', weight_kg)
 ```
 
     weight in kilograms is now 65.0
-
-
 
 
 
@@ -1227,21 +1250,26 @@ for filename in filenames:
 
 
 
-    <Figure size 1000x300 with 3 Axes>
+![png](output_2_1.png)
 
 
     inflammation-02.csv
 
 
 
-    <Figure size 1000x300 with 3 Axes>
+![png](output_2_3.png)
 
 
     inflammation-03.csv
 
 
 
-    <Figure size 1000x300 with 3 Axes>
+![png](output_2_5.png)
+
+
+
+
+
 
 
 
